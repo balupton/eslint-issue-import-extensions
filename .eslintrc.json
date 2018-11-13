@@ -1,0 +1,28 @@
+{
+	"extends": [
+		"eslint:recommended"
+	],
+	"plugins": [
+		"import"
+	],
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": false
+		},
+		"ecmaVersion": 8,
+		"sourceType": "script"
+	},
+	"env": {
+		"es6": true,
+		"node": true,
+		"browser": true,
+		"commonjs": true,
+		"shared-node-browser": true
+	},
+	"rules": {
+		"import/extensions": [
+			2,
+			"always"
+		]
+	}
+}

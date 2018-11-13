@@ -1,0 +1,15 @@
+{
+	"name": "eslint-issue",
+	"version": "1.0.0",
+	"description": "",
+	"main": "source/index.js",
+	"scripts": {
+		"test": "eslint --fix ./source"
+	},
+	"author": "Benjamin Lupton <b@lupton.cc> (https://balupton.com)",
+	"license": "MIT",
+	"devDependencies": {
+		"eslint": "^5.9.0",
+		"eslint-plugin-import": "^2.14.0"
+	}
+}
